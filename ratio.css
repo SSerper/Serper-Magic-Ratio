@@ -1,0 +1,93 @@
+/* CSS Document */
+
+#TitleBar{
+	position:absolute;
+    font-weight:bold;
+	text-align:center;
+	width:300px;
+	height:40px;
+	left:0px;
+	top:0px;
+	font-family:Arial,  Times, serif;
+	font-size:medium;
+	color:#006666;
+
+}
+
+#cratio {
+	border:hidden;
+	border-bottom:none #006666;
+	text-align:center;
+}
+
+#Ang1 {
+	border:hidden;
+	border-bottom:dotted #006666;
+	text-align:center;
+}
+
+#Ang2 {
+	border:hidden;
+	border-bottom:dotted #006666;
+	text-align:center;
+}
+
+#Ang3 {
+	border:hidden;
+	border-bottom:dotted #006666;
+	text-align:center;
+}
+
+#varBox0 {
+	position:absolute;
+	width:39px;
+	height:20px;
+	z-index:1;
+	left:14px;
+	top:50px;
+}
+#varBox1 {
+	position:absolute;
+	width:70px;
+	height:20px;
+	z-index:2;
+	left:130px;
+	top:40px;
+}
+#varBox2 {
+	position:absolute;
+	width:70px;
+	height:22px;
+	z-index:2;
+	left:30px;
+	top:235px;
+}
+#varBox3 {
+	position:absolute;
+	width:70px;
+	height:22px;
+	z-index:2;
+	left:232px;
+	top:235px;
+}
+#varBox4 {
+	position:absolute;
+	width:150px;
+	height:20px;
+	z-index:2;
+	left:110px;
+	top:285px;
+}
+
+#ToolTipText {
+	position:absolute;
+	text-align:center;
+	width:300px;
+	height:50px;
+	left:10px;
+	top:300px;
+	font-family:Arial,  Times, serif;
+	font-size:medium;
+	color:#006666;
+}
+

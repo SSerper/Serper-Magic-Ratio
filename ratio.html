@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- FOR MORE GADGETS AND TOOLS, VISIT MY HOMEPAGE http://members.upc.nl/~s.serper/ --> 
+<style type="text/css">
+  input, textarea {
+    background-color : white;
+    color: black;
+  }
+</style>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="viewport" content="width = 320, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+  <title>Serper's Magic Ratio</title>
+  <style type="text/css">	
+    @import "ratio.css";
+  </style>
+    <script type="text/javascript" src="./ratio.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      reset();
+    </script>
+</head>
+
+<body onload="javascript:reset();">
+    <div id="TitleBar"><p>&nbsp;&nbsp;Serper's Magic Ratio</p></div>
+
+    <div id="varBox3"><input class="input" type="text" id="Ang3"  size = "2" onchange="validate();" /></div>
+    <div id="varBox2"><input class="input" type="text" id="Ang2"  size = "2" onchange="validate();" /></div>
+    <div id="varBox1"><input class="input" type="text" id="Ang1"  size = "2" onchange="validate();" /></div>
+    <div id="varBox4"><input class="input" type="text" id="cratio" onchange="validate();" size="10" /></div>
+    
+    <div id="varBox0"><img src="./ratio_form.jpg" width="495" height="250" alt="Ratio" onclick = "reset();" /></div>
+    <div id="ToolTipText"></div>
+</body>
+</html>
+
+
