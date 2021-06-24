@@ -1,5 +1,5 @@
 # Serper's Magic Ratio
-Demonstrates the calculation of the area-ratio between a triangle and it's circumscribed inner and outer circles, based on only 2 angles as input.
+Demonstrates the calculation of the area-ratio between a triangle's circumscribed inner and outer circles, based on only 2 angles as input.
 
 The code as demonstrated in ratio.html, ration.js and ratio.css shows the method of calculating the ratio between the two respective circles, as depicted in ratio_form.jpg
 The formula as used is also shown in ratio_form.jpg
